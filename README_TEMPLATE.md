@@ -1,6 +1,7 @@
 # My Awesome Project
 
 <!-- Optional: put some badge here -->
+<!-- look at https://shields.io -->
 
 Put a "short" description here. 
 
@@ -9,11 +10,11 @@ Put a "short" description here.
 ## About the project
 <!-- This section  may be Optional and fusioned with the description. -->
 
-## Get Started section
+## Get Started
 <!-- if used, this section contain the "Installation" and "Usage" section -->
 
 ## Installation
-<!-- Requirement and How to install -->
+<!-- What is required and how to install it -->
 
 ## Usage
 <!-- How to use the project. Put some example (command and exepted output) -->
@@ -22,21 +23,23 @@ Put a "short" description here.
 <!-- Tell people where they can go to for help. It can be any combination -->
 <!-- of an issue tracker, a chat room, an email address, etc... -->
 
-## Roadmap (or Todo)
+## Roadmap
 <!-- Ideas for futur evolution or missing features -->
 
 ## Contributing
 <!-- How to contribute to the project, Issue, pullrequest... -->
 
+## Acknowledgment
+<!-- Who I am thankfull - good terms -->
+
 ## Author
-<!-- and acknowledgment -->
-<!-- How to contact and support -->
+<!-- People or teams who create and maintains the project -->
 
 ## Licence
 <!-- if the project have a license, put it here. -->
 
 ## Project status
-<!-- To reformul with my terms.
+<!-- 
 *** If you have run out of energy or time for your project, put a note at 
 *** the top of the README saying that development has slowed down or stopped
 *** completely. Someone may choose to fork your project or volunteer to step
