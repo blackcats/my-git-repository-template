@@ -61,7 +61,8 @@ can also make an explicit request for maintainers.
 
 
 ## Links
+The following Links explain how to create a good readme file:\
 https://www.makeareadme.com/ \
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide \
 https://dev.to/rohit19060/how-to-write-stunning-github-readme-md-template-provided-5b09 \
-https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project
+https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-projeck
