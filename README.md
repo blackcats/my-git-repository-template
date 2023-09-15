@@ -11,10 +11,10 @@ repository.
 As mentioned above, this is my personal template for new repository. It contain
 generic template that I use to create github (and gitlab) repository.
 
-Template are, for example:
+Template are:
 - Issues template
 - Pull or Merge Requests template
-- Actions scripts template
+- Actions scripts
 - ...
 
 ## Installation
@@ -59,7 +59,7 @@ Once the configuration is done, you can use the repository template in 2 ways.
   
   ![New repository from template](/../assets/images/readme/new_repo_from_template.png?raw=true)
 
-- From your repositories page: click on **New** 
+- From your repositories page, click on **New** 
   
   ![New repository button](/../assets/images/readme/new_repo.png?raw=true)
 
@@ -76,7 +76,7 @@ Once the new repository created on GitHub:
   ```
   git mv README_TEMPLATE.md README.md
   ```
-- write your README file
+- edit the README file
   ```
   $EDITOR README.md
   ```
@@ -87,7 +87,7 @@ Once the new repository created on GitHub:
   ```
 
 ## Support 
-If you need help, or have an idea of what to add, please open an Issue.
+If you need help, or have ideas of what to add, please open an Issue.
 
 ## Roadmap
 The upcoming adds are:
