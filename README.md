@@ -8,10 +8,14 @@ repository.
 
 
 ## About the project
-As mentioned above, this is my personal template for new repository. It's a
-generic template that I use for github (and gitlab) repository.
+As mentioned above, this is my personal template for new repository. It contain
+generic template that I use to create github (and gitlab) repository.
 
-It's contain templates for Issues, Pull / Merge Requests, Actions...
+Template are, for example:
+- Issues template
+- Pull or Merge Requests template
+- Actions scripts template
+- ...
 
 ## Installation
 You can use this project in 2 ways: by forking it, the better way, or by 
@@ -20,16 +24,16 @@ cloning it.
 The simple and better way to use the project is by forking it. 
 To do this, simply click on the **Fork** button :slightly_smiling_face:.
 
-If you want to clone it, run the following:
+If you want to clone it, then run the following:
 ```
 git clone git@github.com:blackcats/my-git-repository-template.git
 git remote remove origin
 ```
-Now add your remote repository by running (replace _path_to_my_remote_repository_ 
-by a valide path):
+Now add your remote repository by running :
 ```
 git remote add origin path_to_my_remote_repository
 ```
+Replace _path_to_my_remote_repository_ by the path of your remote repository 
 and push it:
 ```
 git push -u origin main
@@ -37,35 +41,50 @@ git push -u origin main
 
 ## Configuration
 > [!NOTE]
-> For now, I only explain how to configure the repository as a template on GitHub.
+> I only explain how to configure the repository as a template on GitHub.
 > How to configure the repository has a template on GitLab will come later.
 
-On your GitHub repository of the project, go to the **Setting** section 
+In your GitHub repository of the project, go to the **Setting** section 
+
 ![Settings](/../assets/images/readme/setting_button.png?raw=true)
+
 and select: **Template repository**.
+
 ![template_checkbox](/../assets/images/readme/template_checkbox.png?raw=true)
 
 ## Usage
 Once the configuration is done, you can use the repository template in 2 ways.
 - From the repository itself: click on **Use this template** first then click
   on **Create a new repository**. 
+  
   ![New repository from template](/../assets/images/readme/new_repo_from_template.png?raw=true)
+
 - From your repositories page: click on **New** 
+  
   ![New repository button](/../assets/images/readme/new_repo.png?raw=true)
+
   then under **Repository template** select your repository template.
+
   ![Template selection](/../assets/images/readme/template_selection.png?raw=true)
 
-Clone the new repository and:
-- remove the screenshots directory, or at least its contents 
+Once the new repository created on GitHub:
+- clone it 
+  ```
+  git clone path_to_my_new_repository
+  ```
 - replace the current README file with the template
+  ```
+  git mv README_TEMPLATE.md README.md
+  ```
+- write your README file
+  ```
+  $EDITOR README.md
+  ```
 - commit the changes and push them
-with the following commands:
-```
-git clone path_to_my_remote_repository
-git mv README_TEMPLATE.md README.md
-git commit -m "replace readme file by the readme template"
-git push
-```
+  ```
+  git commit -m "initial commit, add readme file"
+  git push
+  ```
 
 ## Support 
 If you need help, or have an idea of what to add, please open an Issue.
