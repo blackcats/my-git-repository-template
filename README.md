@@ -41,19 +41,19 @@ git push -u origin main
 > How to configure the repository has a template on GitLab will come later.
 
 On your GitHub repository of the project, go to the **Setting** section 
-![Settings](/../screenshots/readme/setting_button.png)
+![Settings](/../screenshots/readme/setting_button.png?raw=true)
 and select: **Template repository**.
-![template_checkbox](/../screenshots/readme/template_checkbox.png)
+![template_checkbox](/../screenshots/readme/template_checkbox.png?raw=true)
 
 ## Usage
 Once the configuration is done, you can use the repository template in 2 ways.
 - From the repository itself: click on **Use this template** first then click
   on **Create a new repository**. 
-  ![New repository from template](/../screenshots/readme/new_repo_from_template.png)
+  ![New repository from template](/../screenshots/readme/new_repo_from_template.png?raw=true)
 - From your repositories page: click on **New** 
-  ![New repository button](/../screenshots/readme/new_repo.png)
+  ![New repository button](/../screenshots/readme/new_repo.png?raw=true)
   then under **Repository template** select your repository template.
-  ![Template selection](/../screenshots/readme/template_selection.png)
+  ![Template selection](/../screenshots/readme/template_selection.png?raw=true)
 
 Clone the new repository and:
 - remove the screenshots directory, or at least its contents 
