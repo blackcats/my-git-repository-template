@@ -18,7 +18,6 @@ You can use this project in 2 ways: by forking it, the better way, or by
 cloning it.
 
 The simple and better way to use the project is by forking it. 
-
 To do this, simply click on the **Fork** button :slightly_smiling_face:.
 
 If you want to clone it, run the following:
@@ -42,19 +41,19 @@ git push -u origin main
 > How to configure the repository has a template on GitLab will come later.
 
 On your GitHub repository of the project, go to the **Setting** section 
-![Settings](/screenshots/setting_button.png)
+![Settings](/../screenshots/readme/setting_button.png)
 and select: **Template repository**.
-![template_checkbox](/screenshots/template_checkbox.png)
+![template_checkbox](/../screenshots/readme/template_checkbox.png)
 
 ## Usage
 Once the configuration is done, you can use the repository template in 2 ways.
 - From the repository itself: click on **Use this template** first then click
   on **Create a new repository**. 
-  ![New repository from template](/screenshots/new_repo_from_template.png)
+  ![New repository from template](/../screenshots/readme/new_repo_from_template.png)
 - From your repositories page: click on **New** 
-  ![New repository button](/screenshots/new_repo.png)
+  ![New repository button](/../screenshots/readme/new_repo.png)
   then under **Repository template** select your repository template.
-  ![Template selection](/screenshots/template_selection.png)
+  ![Template selection](/../screenshots/readme/template_selection.png)
 
 Clone the new repository and:
 - remove the screenshots directory, or at least its contents 
@@ -63,8 +62,6 @@ Clone the new repository and:
 with the following commands:
 ```
 git clone path_to_my_remote_repository
-git rm screenshots/*
-git commit -m "remove template screenshots"  (A valider)
 git mv README_TEMPLATE.md README.md
 git commit -m "replace readme file by the readme template"
 git push
@@ -94,7 +91,6 @@ who inspirate you for creating the project.
 This project was created in 2023 by [Olivier LE GALL](lgo@black-cats.org).
 
 ## Licence
-The project is under the Creative Commons Licence v1.0. More on it here 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Links
