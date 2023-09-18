@@ -4,8 +4,7 @@ This is my personal git repository template that I use when I create a new
 repository.
 
 ![Static Badge](https://img.shields.io/badge/markdown-black?logo=markdown)
-![Static Badge](https://img.shields.io/badge/creativecommons-v1.0-%23EF9421?logo=creativecommons)
-
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 ## About the project
 As mentioned above, this is my personal template for new repository. It contain
@@ -110,7 +109,14 @@ who inspirate you for creating the project.
 This project was created in 2023 by [Olivier LE GALL](lgo@black-cats.org).
 
 ## Licence
-[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ## Links
 - [github-issue-templates](https://github.com/timothystewart6/github-issue-templates)
